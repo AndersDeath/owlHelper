@@ -1,0 +1,39 @@
+{
+  "manifest_version": 2,
+  "name": "OwlHelper",
+  "description": "OwlHelper",
+  "version": "0.5.1",
+  "browser_action": {
+    "default_title": "OwlHelper",
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "tabs","https://habrahabr.ru/*",
+    "webRequest",
+    "webRequestBlocking",
+    "https://music.yandex.ru/*",
+    "http://*/*",
+    "https://*/*",
+    "background",
+    "storage"
+  ],
+  "background": {
+
+  "page": "background.html"
+},
+  "content_scripts":[
+    { "matches": ["<all_urls>"],
+      "css":["css/style.css"],
+      "js":[
+        "lib/jquery-2.1.3.min.js",
+        "src/config/linksConfig.js",
+        "src/config/linksConfigFast.js",
+        "src/config/searchConfig.js",
+        "src/background.js",
+        "lib/owllib.js",
+        "src/script.js"
+      ]
+    }
+  ]
+}

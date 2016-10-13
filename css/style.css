@@ -1,0 +1,165 @@
+
+#vnbstudio {
+  margin: 0 auto;
+  padding: 0;
+  width: 380px;
+}
+#vnbstudio input[type="button"]{
+  cursor: pointer;
+}
+#vnbstudio * {
+    margin: 0 auto;
+    padding: 0;
+
+}
+#vnbstudio h2 {
+  text-align: center;
+}
+#vnbstudio ul {
+    width:375px;
+    display: block;
+}
+#vnbstudio li {
+    list-style: none;
+}
+#vnbstudio a {
+    text-decoration: none;
+    text-align: left;
+    display: block;
+    font-size: 18px;
+    color: #000;
+    text-indent: 15px;
+}
+#vnbstudio a:hover{
+    text-decoration: underline;
+}
+#vnbstudio li
+{
+    /*border-bottom: 1px dotted #000;*/
+}
+#vnbstudio .bg2 {
+  background: rgb(242, 242, 242);
+}
+#vnbstudio table tr td {
+  vertical-align: top;
+}
+
+#vnbstudio .taskReturn {
+  margin: 5px 0 5px 0;
+  text-align: center;
+}
+#vnbstudio .taskReturn #taskNum {
+  height: 26px;
+  width: 315px;
+}
+
+#vnbstudio .taskReturn #taskGo {
+  height: 30px;
+}
+
+#vnbstudio .allSearch {
+  height:75px;
+}
+#vnbstudio .allSearch #searchText {
+  margin: 5px 0 0 0;
+  height: 30px;
+  width: 376px;
+}
+
+#vnbstudio .allSearch #searchGoYandex,
+#vnbstudio .allSearch #searchGoGoogle,
+#vnbstudio .allSearch #searchGoBing,
+#vnbstudio .allSearch #searchGoWiki,
+#vnbstudio .allSearch #searchGoHabr
+{
+  height: 30px;
+  padding: 5px 10px 5px 10px;
+  margin-right: 2px;
+  margin-top: 4px;
+  width: 70px;
+}
+
+#vnbstudio .tabs {
+  width: 100%;
+  overflow:hidden;
+}
+
+#vnbstudio .tabs .tab_btn {
+  height: 40px;
+}
+
+
+#vnbstudio .tabs .tab_btn div{
+  margin: 0 auto;
+  float: left;
+  background-color: #3ab54a;
+  padding: 8px;
+  width: 172px;
+  text-align: center;
+  cursor: pointer;
+  -webkit-user-select: none;
+  color: #fff;
+  font-size: 16px;
+}
+
+#vnbstudio .tabs .tab_btn div.active {
+    background-color: #2c8e39;
+}
+
+#vnbstudio .tabs .tab_btn div:not(:last-child){
+  border-right: 1px solid #00980f;
+}
+
+#vnbstudio .tabs .tab_container div {
+  overflow: hidden;
+}
+
+#vnbstudio #fastLinks {
+  padding: 10px 0 10px 0;
+  text-align: center;
+}
+
+#vnbstudio #fastLinks a.icon{
+  height: 26px;
+  width: 26px;
+  display: inline-block;
+  background-size: 80%;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 5px;
+}
+
+#vnbstudio #fastLinks a.icon.admob {
+  background-image: url('../icon/admob-ico.png');
+}
+#vnbstudio #fastLinks a.icon.adsense {
+  background-image: url('../icon/adsense-ico.png');
+}
+#vnbstudio #fastLinks a.icon.fb {
+  background-image: url('../icon/fb-ico.png');
+}
+#vnbstudio #fastLinks a.icon.gdrive {
+  background-image: url('../icon/gdrive-ico.png');
+}
+#vnbstudio #fastLinks a.icon.gmail {
+  background-image: url('../icon/gmail-ico.png');
+}
+#vnbstudio #fastLinks a.icon.gplay {
+  background-image: url('../icon/gplay-ico.png');
+}
+#vnbstudio #fastLinks a.icon.twitter {
+  background-image: url('../icon/twitter-ico.png');
+}
+#vnbstudio #fastLinks a.icon.vk {
+  background-image: url('../icon/vk-ico.png');
+}
+#vnbstudio #fastLinks a.icon.yamail {
+  background-image: url('../icon/yamail-ico.png');
+}
+#vnbstudio #fastLinks a.icon.yastore {
+  background-image: url('../icon/yastore-ico.png');
+}
+
+#vnbstudio #fastLinks a:hover{
+  background-color: #eeeeee;
+}
